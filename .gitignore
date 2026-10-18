@@ -1,0 +1,24 @@
+# Repositorio del profesor
+/diplosw2026/
+
+# Variables de entorno y credenciales
+.env
+.env.*
+!.env.example
+
+# Dependencias
+**/vendor/
+**/node_modules/
+
+# Archivos generados
+**/dist/
+**/build/
+**/.cache/
+**/.phpunit.cache/
+
+# Archivos del sistema
+.DS_Store
+Thumbs.db
+
+# Metadatos de archivos descargados de Windows
+*:Zone.Identifier
